@@ -85,3 +85,12 @@ For bonus points, make it so that the character count display is:
 * Red if less than 10% of characters are left
 
 One simple way to achieve this colour change is to [modify the `class` of the `span` element](https://api.jquery.com/addclass/) and use some CSS to colour the text appropriately.
+
+
+What to do next?
+================
+Finishing this workshop should have given you a pretty good understanding of the fundamentals of jQuery. jQuery is extremely helpful when comes the time to manipulate the DOM of our web page. However, it turns out that jQuery does not scale very well to a more complex application full of interactions and components.
+
+One of the many UI frameworks out there that aims to solve these maintainability and scalability issues is [Facebook's React](http://facebook.github.io/react/). React is a beast: not only is it not easy to get started with it, it's not immediately straightforward why it can be superior.
+
+[This ReactJS introduction tutorial](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/) is made specifically for developers like yourself who, as the author says, *"only know enough jQuery to get by"*. Following this tutorial will expand on the workshop you finished, and will give you a good introduction to the subject.
