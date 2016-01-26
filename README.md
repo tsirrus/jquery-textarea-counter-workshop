@@ -78,6 +78,8 @@ Modify your `index.html` to add a `maxlength` attribute on your `textarea` eleme
 
 Next, modify your jQuery code to display the **remaining character count** in the `span`.
 
+**NOTE**: Make sure your JavaScript code does not hardcode the 140 characters value. Instead you should try to [find out the `maxlength` attribute of the textarea](https://api.jquery.com/attr/). This way if you later change the maxlength, your counter will still work appropriately.
+
 For bonus points, make it so that the character count display is:
 
 * Green if more than 20% of characters are left
@@ -85,6 +87,12 @@ For bonus points, make it so that the character count display is:
 * Red if less than 10% of characters are left
 
 One simple way to achieve this colour change is to [modify the `class` of the `span` element](https://api.jquery.com/addclass/) and use some CSS to colour the text appropriately.
+
+Step 5: Getting rid of rough edges
+----------------------------------
+Notice that before you start writing anything in the textarea, there is no character count displayed. Your code only starts displaying when the first input is received from the user.
+
+Modify your code so that the initial remaining character count is displayed as soon as the page loads.
 
 
 What to do next?
